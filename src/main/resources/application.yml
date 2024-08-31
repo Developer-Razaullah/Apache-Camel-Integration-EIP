@@ -1,0 +1,14 @@
+camel:
+  servlet:
+    mapping:
+      context-path: /gateway/*
+
+server:
+  port:
+    8081
+
+url:
+  technology-endpoint: http://localhost:8080/technology/technologies
+
+
+
