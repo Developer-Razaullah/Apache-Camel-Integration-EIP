@@ -24,7 +24,7 @@ public class PingController {
     public ResponseEntity<String> getTechnology() {
         RestTemplate restTemplate = new RestTemplate();
         String fooResourceUrl
-                = urlConfig.getTechnologyEndpoint();
+                = urlConfig.getBaseEndpoint()+urlConfig.getTechnology();
         return restTemplate.getForEntity(fooResourceUrl, String.class);
     }
 }

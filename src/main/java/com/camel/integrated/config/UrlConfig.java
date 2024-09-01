@@ -9,5 +9,9 @@ import org.springframework.context.annotation.Configuration;
 @ConfigurationProperties("url")
 public class UrlConfig {
 
-    private String technologyEndpoint;
+    private String baseEndpoint;
+    private String technology;
+    private String messages;
+    private String message;
+
 }

@@ -8,7 +8,10 @@ server:
     8081
 
 url:
-  technology-endpoint: http://localhost:8080/technology/technologies
+  base-endpoint: http://localhost:8080
+  technology: /technology/technologies
+  message: /add/message
+  messages: /list/message
 
 
 
