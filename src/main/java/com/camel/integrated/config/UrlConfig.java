@@ -14,5 +14,6 @@ public class UrlConfig {
     private String messages;
     private String message;
     private String tech;
+    private String singleMessage;
 
 }

@@ -13,6 +13,7 @@ url:
   message: /add/message
   messages: /list/message
   tech: /add/tech
+  single-message: /message
 
 
 
